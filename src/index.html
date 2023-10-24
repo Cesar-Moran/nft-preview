@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body
+    class="bg-veryDarkBlueMainBG h-screen flex justify-center items-center px-6 font-outfit"
+  >
+    <article
+      class="text-white flex flex-col bg-veryDarkBlueCardBG p-7 rounded-2xl"
+    >
+      <div class="">
+        <img
+          src="/images/image-equilibrium.jpg"
+          alt="A cube in equilibrium"
+          class="flex rounded-xl mb-7"
+        />
+        <div class=""></div>
+        <img src="../images/icon-view.svg" alt="" class="" />
+      </div>
+
+      <div>
+        <h1 class="font-semibold text-xl mb-4 hover:text-cyan cursor-pointer">
+          Equilibrium #3429
+        </h1>
+        <p class="font-light text-softBlue mb-4">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+      </div>
+      <div
+        class="flex justify-between border-b-[1.5px] border-b-veryDarkBlueLine pb-5"
+      >
+        <span class="flex items-center gap-3 h-5 text-cyan font-semibold"
+          ><img src="/images/icon-ethereum.svg" alt="" class="" />0.041
+          ETH</span
+        >
+        <span class="flex items-center gap-3 h-5 text-softBlue"
+          ><img src="/images/icon-clock.svg" alt="" /> 3 days left</span
+        >
+      </div>
+      <div class="flex gap-4 items-center mt-4">
+        <img
+          src="/images/image-avatar.png"
+          alt=""
+          class="border rounded-full w-8 h-8"
+        />
+        <p class="font-light text-softBlue">
+          Creation of
+          <span class="text-white hover:text-cyan cursor-pointer"
+            >Jules Wyvern</span
+          >
+        </p>
+      </div>
+    </article>
+  </body>
+</html>
