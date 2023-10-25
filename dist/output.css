@@ -662,14 +662,6 @@ video {
   padding-bottom: 1.25rem;
 }
 
-.pb-4 {
-  padding-bottom: 1rem;
-}
-
-.pt-7 {
-  padding-top: 1.75rem;
-}
-
 .font-outfit {
   font-family: Outfit;
 }
@@ -808,24 +800,9 @@ video {
   color: rgb(0 255 247 / var(--tw-text-opacity));
 }
 
-.hover\:before\:rounded-2xl:hover::before {
-  content: var(--tw-content);
-  border-radius: 1rem;
-}
-
 .hover\:before\:rounded-xl:hover::before {
   content: var(--tw-content);
   border-radius: 0.75rem;
-}
-
-.hover\:before\:opacity-25:hover::before {
-  content: var(--tw-content);
-  opacity: 0.25;
-}
-
-.hover\:before\:opacity-60:hover::before {
-  content: var(--tw-content);
-  opacity: 0.6;
 }
 
 .hover\:before\:opacity-50:hover::before {
