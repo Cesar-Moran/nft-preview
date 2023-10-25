@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-    <link rel="stylesheet" href="src/input.css" />
+    <link rel="stylesheet" href="./input.css" />
     <link rel="stylesheet" href="../dist/output.css" />
     <link
       rel="icon"
@@ -18,22 +18,25 @@
     class="bg-veryDarkBlueMainBG h-screen flex justify-center items-center px-6 font-outfit"
   >
     <article
-      class="text-white flex flex-col bg-veryDarkBlueCardBG p-7 rounded-2xl"
+      class="text-white flex flex-col bg-veryDarkBlueCardBG p-7 rounded-2xl max-w-sm shadow-lg"
     >
-      <div class="">
+      <!-- ----------------------------------------------------------------- -->
+      <a
+        class="block relative before:absolute before:w-full before:h-full before:content-[''] before:bg-cyan before:opacity-0 hover:before:rounded-xl before:transition-all after:absolute after:w-full after:h-full after:content-[''] after:bg-[url('../images/icon-view.svg')] after:bg-center after:bg-no-repeat after:z-50 after:opacity-0 hover:before:opacity-50 hover:after:opacity-100 after:-top-0 after:transition-all cursor-pointer"
+      >
         <img
           src="/images/image-equilibrium.jpg"
           alt="A cube in equilibrium"
-          class="flex rounded-xl mb-7"
+          class="rounded-xl block max-w-full"
         />
-        <div class=""></div>
-        <img src="../images/icon-view.svg" alt="" class="" />
-      </div>
-
+      </a>
+      <!-- ------------------------------------------------------------------ -->
       <div>
-        <h1 class="font-semibold text-xl mb-4 hover:text-cyan cursor-pointer">
+        <a
+          class="inline-block font-semibold text-xl mb-4 mt-7 hover:text-cyan cursor-pointer"
+        >
           Equilibrium #3429
-        </h1>
+        </a>
         <p class="font-light text-softBlue mb-4">
           Our Equilibrium collection promotes balance and calm.
         </p>
@@ -57,9 +60,7 @@
         />
         <p class="font-light text-softBlue">
           Creation of
-          <span class="text-white hover:text-cyan cursor-pointer"
-            >Jules Wyvern</span
-          >
+          <a class="text-white hover:text-cyan cursor-pointer">Jules Wyvern</a>
         </p>
       </div>
     </article>
